@@ -1,8 +1,8 @@
-# FastDepth
+# Iksha
 
-Rapid Monocular Depth Estimation on a input Video Stream Using Lightweight Efficient Neural Network on TFjs
+Iksha is a web app and custom haptic hardware device that empowers the visually impaired in 3D perception and navigation of the environment.
 
-### 📄 Citation
+### 📄 Citation for the pretrained model used
 
 ```
 @inproceedings{icra_2019_fastdepth,
