@@ -79,7 +79,7 @@ imageDescribe = async () => {
 
         // const imageBuffer = Base64
         console.log(byteArr)
-        const subscription = 'f1b6ca3ba60544999f6441eb9c367bb8';
+        const subscription = '';
         const endpoint = 'https://eastus.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures=Description&language=en';
         
         const response = await fetch(endpoint, {
