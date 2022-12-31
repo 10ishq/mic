@@ -79,7 +79,7 @@ imageDescribe = async () => {
 
         // const imageBuffer = Base64
         console.log(byteArr)
-        const subscription = 'f1b6ca3ba60544999f6441eb9c367bb8';
+        const subscription = 'XXXXXXXXXXXXXXX';
         const endpoint = 'https://eastus.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures=Description&language=en';
         
         const response = await fetch(endpoint, {
@@ -159,7 +159,7 @@ const predict = async () => {
       }
     
 
-    // makle a post request to 192.168.29.253/postplain/ with json body of arr2d
+    // makle a post request to device at 192.168.29.253/postplain/ with json body of arr2d
     try {
         const response = await fetch('http://192.168.29.253/postplain/', {
             method: 'POST',
